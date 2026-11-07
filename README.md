@@ -1,3 +1,7 @@
+<p align="center"><img src="docs/hero.jpg" alt="A black Miyoo Mini Plus on a stand on a bar counter in a dark arcade, showing the Super Game Boy++ main menu, with arcade cabinets glowing behind it" width="100%"></p>
+
+[![Release](https://img.shields.io/github/v/release/zakijss/SuperGameBoyPlusPlus)](https://github.com/zakijss/SuperGameBoyPlusPlus/releases)
+
 # Silky Remix SUPER GAME BOY++
 
 **Modded by ZJSS.**
@@ -6,7 +10,7 @@ An Onion OS theme for the Miyoo Mini and Mini Plus. I built it on
 [Silky Remix SUPER GAME BOY](https://github.com/OnionUI/Themes/tree/main/themes/Silky%20Remix%20SUPER%20GAME%20BOY%20by%20MLOPEZMAD)
 by MLOPEZMAD and added a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan and yellow.
 
-![Main menu](screenshots/main.png)
+<p align="center"><img src="docs/main.png" alt="The main menu: Favorites, Games, Apps and Settings tiles over the logo wall, the Games handheld showing Chopper Command, the last game played" width="32%"> <img src="docs/apps.png" alt="The Apps list with pixel-art icons on frosted-glass rows" width="32%"> <img src="docs/switcher.png" alt="The game switcher with the Super Game Boy++ logo in its top bar" width="32%"></p>
 
 ## What's in it
 
@@ -24,7 +28,7 @@ by MLOPEZMAD and added a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan
 - A soft chiptune tick when the selection moves and a short rising chime when something opens.
 - Rajdhani and Titillium Web fonts.
 
-![Apps list](screenshots/apps.png)
+<p align="center"><img src="docs/desk.jpg" alt="A grey Miyoo Mini Plus on a stand showing the main menu, a black one lying beside it in the game switcher, arcade lights blurred behind" width="100%"></p>
 
 ## Install
 
