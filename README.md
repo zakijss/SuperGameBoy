@@ -1,8 +1,10 @@
 # Silky Remix SUPER GAME BOY++
 
-An Onion OS theme for the Miyoo Mini and Mini Plus. It is a mod of
-[Silky Remix SUPER GAME BOY](https://github.com/OnionUI/Themes/tree/main/themes/Silky%20Remix%20SUPER%20GAME%20BOY%20by%20MLOPEZMAD) by MLOPEZMAD, modded by ZJSS, with
-a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan and yellow.
+**Modded by ZJSS.**
+
+An Onion OS theme for the Miyoo Mini and Mini Plus. I built it on
+[Silky Remix SUPER GAME BOY](https://github.com/OnionUI/Themes/tree/main/themes/Silky%20Remix%20SUPER%20GAME%20BOY%20by%20MLOPEZMAD)
+by MLOPEZMAD and added a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan and yellow.
 
 ![Main menu](screenshots/main.png)
 
@@ -41,6 +43,7 @@ To turn the live layer off, delete `/mnt/SDCARD/.tmp_update/startup/sgblive.sh`.
 
 ## Credits
 
+- Mod: ZJSS (wallpaper, glass, tiles, icons, sounds and the live layer).
 - Original theme: Silky Remix SUPER GAME BOY by MLOPEZMAD, from the Onion theme collection.
 - Fonts: Rajdhani (Indian Type Foundry) and Titillium Web (Accademia di Belle Arti di Urbino),
   under the SIL Open Font License; the licence texts are in the theme folder. Some text drawn
