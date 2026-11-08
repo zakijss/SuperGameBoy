@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.1 (2026-11-08)
+
+- Fix: the red text (the list counter and the selected name in grid view) is lighter, so it stays
+  readable on red glass at half brightness.
+
 ## v1.2 (2026-11-08)
 
 - The theme folder is now `Silky Remix SUPER GAME BOY++ by ZJSS`, named as Onion's theme repository
