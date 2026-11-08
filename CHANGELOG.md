@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2 (2026-11-08)
+
+- The theme folder is now `Silky Remix SUPER GAME BOY++ by ZJSS`, named as Onion's theme repository
+  asks. If you had v1.1, delete `Themes/Silky Remix SUPER GAME BOY++ modded by ZJSS` after
+  installing.
+- The icons are also an icon pack of their own, `SUPER GAME BOY++ by ZJSS`.
+- The theme and the icon pack can be installed from MiniMart.
+
 ## v1.1 (2026-11-07)
 
 - The game switcher's top bar shows the Super GAME BOY ++ logo, on two lines so it clears the play
