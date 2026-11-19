@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.4 (2026-11-19)
+
+- The live layer quits while a game or app runs and starts again a few seconds after you return to
+  the menu. Games get back the 33 MB of memory it holds. Before, it stayed in memory and only
+  stopped drawing.
+- A boot logo for Easy Logotweak, shown at power-on before Onion starts: Super GAME BOY ++ over
+  the logo wall, between the theme's top and bottom bars. It is in the full zip, in
+  `App/EasyLogoTweak/logos`.
+- A RetroArch menu theme: the logo wall in cool grey behind the menu, the theme's glass bars and
+  rules, white entries, the selected entry in light red and cyan titles. It is in the full zip, in
+  `RetroArch/.retroarch/assets/rgui`. The README says how to switch to it.
+- SGB Live's line in Apps says how much memory the live wallpaper uses.
+
 ## v1.3 (2026-11-19)
 
 - The save-and-shut-down screen, the low-battery screen, the switches in Tweaks and Package
