@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.3 (2026-11-19)
+
+- The save-and-shut-down screen, the low-battery screen, the switches in Tweaks and Package
+  Manager, the four-line pop-up menu and the game switcher's arrows are in the theme's look. Onion's
+  own art no longer shows on any of them.
+- Below 5 % the empty battery icon has a red outline.
+- Icons for the blueMSX and SquirrelJME cores.
+- Pictures for the Ports genre folders: Action, Arcade, FPS and its four collections, Platform,
+  Puzzle games, Racing, Reflex, RPG and Space. They are in the full zip, in `Roms/PORTS/Imgs`.
+- SGB Live in Apps turns the live wallpaper off and on again.
+- Battery saver: below 20 % the live wallpaper stops, and it comes back once the battery is at
+  25 %.
+- Fix: the live layer started at boot even when another theme was active, and stayed in memory. It
+  now starts only with this theme and stops when you choose another one. After choosing the theme,
+  restart or open SGB Live.
+
 ## v1.2.1 (2026-11-08)
 
 - Fix: the red text (the list counter and the selected name in grid view) is lighter, so it stays

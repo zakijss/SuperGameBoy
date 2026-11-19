@@ -31,13 +31,18 @@ by MLOPEZMAD and added a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan
 - The Apps tile's nine squares show the apps you opened most recently, the newest in the middle.
 - Pixel-art icons for the main menu, every Onion app, the consoles, the RetroArch cores and the
   settings.
-- Battery percentage inside the battery icon, and evenly spaced Wi-Fi and status icons.
+- Battery percentage inside the battery icon, which turns red below 30 % and gets a red outline
+  below 5 %, and evenly spaced Wi-Fi and status icons.
+- Pictures for the Ports genre folders, Space and RPG among them.
+- SGB Live in Apps turns the live wallpaper off and on. Below 20 % battery it stops by itself and
+  comes back at 25 %.
 - The Super GAME BOY ++ logo in the top bar and in the game switcher.
 - A soft chiptune tick when the selection moves and a short rising chime when something opens.
 - Rajdhani and Titillium Web fonts.
 
 Almost every screen is themed: the main menu, the game and app lists, the console grid, Settings,
-the game switcher, the charging screen and the pop-up menus.
+the game switcher, the switches in Tweaks, the pop-up menus, and the charging, shutdown, save and
+low-battery screens.
 
 <img src="docs/desk.jpg" alt="A grey Miyoo Mini Plus on a stand showing the main menu, a black one lying beside it on Armiger's row in Ports, arcade cabinets blurred behind" width="100%">
 
@@ -57,22 +62,26 @@ MiniMart's icon packs too.
 
 1. Download `Silky.Remix.SUPER.GAME.BOY++.by.ZJSS.zip` from
    [Releases](https://github.com/zakijss/SuperGameBoy/releases/latest).
-2. Copy its two folders, `Themes` and `.tmp_update`, to the root of the SD card, merging them with
-   the folders already there. `.tmp_update` is hidden on a Mac: press Cmd+Shift+. in Finder to
-   see it.
-3. Restart the device and choose the theme in Apps > Themes.
+2. Copy its folders, `Themes`, `.tmp_update`, `App` and `Roms`, to the root of the SD card,
+   merging them with the folders already there. `.tmp_update` is hidden on a Mac: press
+   Cmd+Shift+. in Finder to see it.
+3. Choose the theme in Apps > Themes, then restart the device.
 
 **From [MiniMart](https://github.com/zakijss/MiniMart):** open **Themes** and pick Silky Remix SUPER
 GAME BOY++. A theme from a store is installed without the boot hook, so it is static until you
 add `.tmp_update` from the full zip.
 
 The animated wallpaper and live tiles come from a small program in the theme folder
-(`live/sgblive`), started at boot by `.tmp_update/startup/sgblive.sh`. It draws only while this
-theme is active and the main menu is on screen, and it stops during games and apps. If you copy
-only the theme folder, the theme works as a regular static theme.
+(`live/sgblive`). `.tmp_update/startup/sgblive.sh` starts it at boot, and only when this is the
+active theme. It draws only while the main menu is on screen and stops during games and apps. If
+you copy only the theme folder, the theme works as a regular static theme.
 
-To turn the live layer off, delete `/mnt/SDCARD/.tmp_update/startup/sgblive.sh`. What changed in
-each version is in the [changelog](CHANGELOG.md).
+To turn the live layer off or on again, open SGB Live in Apps. It keeps the setting as a file,
+`/mnt/SDCARD/.tmp_update/config/.sgbliveOff`: off while that file exists. Below 20 % battery the
+layer stops on its own and starts again at 25 %. Choosing another theme stops it, and it starts
+again at the next restart with this theme or when you open SGB Live. To remove the layer, delete
+`/mnt/SDCARD/.tmp_update/startup/sgblive.sh`. What changed in each version is in the
+[changelog](CHANGELOG.md).
 
 <img src="docs/ui/h-credits.png" alt="05 Credits" width="100%">
 
