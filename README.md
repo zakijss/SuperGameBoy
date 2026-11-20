@@ -6,9 +6,9 @@
 
 <img src="docs/hero.jpg" alt="A black Miyoo Mini Plus on a stand on a bar counter in a dark arcade, showing the Super Game Boy++ main menu, a purple one lying beside it playing Armiger, rows of arcade cabinets glowing out of focus behind" width="100%">
 
-An Onion OS theme for the Miyoo Mini and Mini Plus, **modded by ZJSS**. I built it on
+An Onion OS theme for the Miyoo Mini and Mini Plus, **modded by ZJSS** from
 [Silky Remix SUPER GAME BOY](https://github.com/OnionUI/Themes/tree/main/themes/Silky%20Remix%20SUPER%20GAME%20BOY%20by%20MLOPEZMAD)
-by MLOPEZMAD and added a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan and yellow.
+by MLOPEZMAD, with a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan and yellow.
 
 **350+ pixel-art icons · 100+ redrawn interface images · 150 logos that light up · new sounds**
 
@@ -23,27 +23,17 @@ by MLOPEZMAD and added a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan
 
 <img src="docs/ui/h-features.png" alt="02 What's in it" width="100%">
 
-- A wallpaper of console and arcade makers' logos at many sizes. On the main menu the logos light
-  up in two waves at once, one travelling down the screen and one up, with a little randomness in
-  the timing. Each lit logo has a shining outline running round it.
-- Frosted-glass menu cards, title and hint ribbons and list highlights. The glow of a lit logo
-  shows through the glass, blurred.
-- The Games tile is a handheld whose screen shows a screenshot of the last game you closed. Onion
-  saves one each time you leave a game, so it changes as you play.
-- The Apps tile's nine squares show the apps you opened most recently, the newest in the middle.
+- A wallpaper of console and arcade makers' logos. On the main menu they light up in two waves,
+  one travelling down the screen and one up, each lit logo with a shining outline.
+- Frosted-glass menu cards, ribbons and list highlights, with the glow of a lit logo showing
+  through.
+- Live tiles: the Games tile is a handheld showing the last game you closed, and the Apps tile's
+  nine squares show the apps you opened most recently.
 - Pixel-art icons for the main menu, every Onion app, the consoles, the RetroArch cores and the
-  settings.
-- Battery percentage inside the battery icon, which turns red below 30 % and gets a red outline
-  below 5 %, and evenly spaced Wi-Fi and status icons.
-- Pictures for the Ports genre folders, Space and RPG among them.
-- SGB Live in Apps turns the live wallpaper off and on. Below 20 % battery it stops by itself and
-  comes back at 25 %. While a game or app runs it quits, so the game gets its memory back.
-- A boot logo, the first thing on screen at power-on, for the Easy Logotweak app.
-- A RetroArch menu theme: the logo wall, the glass bars and the theme's colours in the in-game
-  menu.
-- The Super GAME BOY ++ logo in the top bar and in the game switcher.
-- A soft chiptune tick when the selection moves and a short rising chime when something opens.
-- Rajdhani and Titillium Web fonts.
+  settings, and pictures for the Ports genre folders.
+- Battery percentage inside the battery icon, red below 30 % and outlined in red below 5 %.
+- A boot logo for Easy Logotweak, a RetroArch menu theme, a chiptune tick and chime, and the
+  Rajdhani and Titillium Web fonts.
 
 Almost every screen is themed: the boot logo, the main menu, the game and app lists, the console
 grid, Settings, the game switcher, the switches in Tweaks, the pop-up menus, the RetroArch menu,
@@ -63,30 +53,28 @@ MiniMart's icon packs too.
 
 <img src="docs/ui/h-install.png" alt="04 Install" width="100%">
 
-**Full install, with the animated wallpaper and live tiles:**
+Download `Silky.Remix.SUPER.GAME.BOY++.by.ZJSS.zip` from the
+[latest release](https://github.com/zakijss/SuperGameBoy/releases/latest) and copy its folders
+(`Themes`, `.tmp_update`, `App`, `RetroArch` and `Roms`) to the root of the SD card, merging them
+with the folders already there (`.tmp_update` is hidden on a Mac: press Cmd+Shift+. in Finder).
+Choose the theme in Apps > Themes, then restart. It is also in **Themes** in
+[MiniMart](https://github.com/zakijss/MiniMart), but a theme from a store comes without the boot
+hook, so it stays static until you add `.tmp_update` from the full zip.
 
-1. Download `Silky.Remix.SUPER.GAME.BOY++.by.ZJSS.zip` from
-   [Releases](https://github.com/zakijss/SuperGameBoy/releases/latest).
-2. Copy its folders, `Themes`, `.tmp_update`, `App`, `RetroArch` and `Roms`, to the root of the SD
-   card, merging them with the folders already there. `.tmp_update` is hidden on a Mac: press
-   Cmd+Shift+. in Finder to see it.
-3. Choose the theme in Apps > Themes, then restart the device.
+The animated wallpaper and live tiles come from a small program, `live/sgblive`, started at boot
+only when this is the active theme. It takes about 33 MB of memory, so it quits while a game or app
+runs and comes back a few seconds after you return to the menu. **SGB Live** in Apps turns it off
+and on; below 20 % battery it stops by itself and comes back at 25 %.
 
-**From [MiniMart](https://github.com/zakijss/MiniMart):** open **Themes** and pick Silky Remix SUPER
-GAME BOY++. A theme from a store is installed without the boot hook, so it is static until you
-add `.tmp_update` from the full zip.
+<details>
+<summary><b>Live layer, boot logo and RetroArch menu</b></summary>
 
-The animated wallpaper and live tiles come from a small program in the theme folder
-(`live/sgblive`). `.tmp_update/startup/sgblive.sh` starts it at boot, and only when this is the
-active theme. It draws only while the main menu is on screen. It takes about 33 MB of memory, so it
-quits when you start a game or an app and comes back a few seconds after you return to the menu.
-If you copy only the theme folder, the theme works as a regular static theme.
-
-To turn the live layer off or on again, open SGB Live in Apps. It keeps the setting as a file,
-`/mnt/SDCARD/.tmp_update/config/.sgbliveOff`: off while that file exists. Below 20 % battery the
-layer stops on its own and starts again at 25 %. Choosing another theme stops it, and it starts
-again at the next restart with this theme or when you open SGB Live. To remove the layer, delete
-`/mnt/SDCARD/.tmp_update/startup/sgblive.sh`.
+**Live layer.** `.tmp_update/startup/sgblive.sh` starts it, and it draws only while the main menu
+is on screen. SGB Live keeps its setting as a file, `/mnt/SDCARD/.tmp_update/config/.sgbliveOff`:
+off while that file exists. Choosing another theme stops it, and it starts again at the next
+restart with this theme or when you open SGB Live. To remove it, delete
+`/mnt/SDCARD/.tmp_update/startup/sgblive.sh`. If you copy only the theme folder, the theme works
+as a regular static theme.
 
 **Boot logo.** The full zip puts it in `App/EasyLogoTweak/logos/SUPER GAME BOY++ by ZJSS`. Install
 [Easy Logotweak](https://github.com/schmurtzm/Miyoo-Mini-easy-logotweak), open it and pick SUPER
@@ -97,6 +85,8 @@ ZJSS.cfg` and its wallpaper. In a game, open the RetroArch menu, go to Settings 
 Appearance and set Custom Theme Preset to that file (Menu Color Theme stays on Custom, Onion's
 default). Save it with Main Menu > Configuration File > Save Current Configuration. To go back,
 pick `Onion.cfg` in the same place.
+
+</details>
 
 What changed in each version is in the [changelog](CHANGELOG.md).
 
