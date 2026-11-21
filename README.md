@@ -6,6 +6,8 @@
 
 <img src="docs/hero.jpg" alt="A black Miyoo Mini Plus on a stand on a bar counter in a dark arcade, showing the Super Game Boy++ main menu, a purple one lying beside it playing Armiger, rows of arcade cabinets glowing out of focus behind" width="100%">
 
+https://github.com/user-attachments/assets/5489e006-2e21-4327-a9c8-219a62dbc6bc
+
 An Onion OS theme for the Miyoo Mini and Mini Plus, **modded by ZJSS** from
 [Silky Remix SUPER GAME BOY](https://github.com/OnionUI/Themes/tree/main/themes/Silky%20Remix%20SUPER%20GAME%20BOY%20by%20MLOPEZMAD)
 by MLOPEZMAD, with a dash of Cyberpunk 2077 in Super Game Boy red, neon cyan and yellow.
